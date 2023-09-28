@@ -233,9 +233,19 @@ body {
     transition: 0.4s;
 }
 
-.about {
+/* .about {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 20px;
+
+} */
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     /* Creates a responsive grid */
     gap: 20px;
     /* Spacing between items */
@@ -274,6 +284,7 @@ body {
     color: #DAD7CD;
     font-size: larger;
     font-weight: bolder;
+    max-width: 350px;
 }
 
 .profile-pics{
