@@ -1,0 +1,44 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "Frank",
+      "description": "Meet Frank! With a coat as golden as the sunrise and a heart to match, Frank embodies everything you'd expect from a Golden Retriever and then some. At 5 years old, this cheerful fellow has a penchant for belly rubs, lazy afternoon naps, and fetch sessions that could go on for hours. Frank is excellent with children and other pets, often displaying a gentle patience that's truly heartwarming. He's house-trained, well-mannered, and knows a trick or two to show off when the treats come out. If you're looking for a loyal companion who will make every day feel a little sunnier, Frank might just be your guy!",
+      "gender": "male",
+      "image": "https://images.unsplash.com/photo-1611003228941-98852ba62227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3174&q=80",
+      "breed": "Golden Retriever"
+    },
+    {
+      "id": 2,
+      "name": "Toothless",
+      "description": "Dive into the depths of the night with Toothless, a striking black cat whose sleek coat mirrors the mysteries of the midnight sky. At 4 years old, Toothless has an aura of elegance, mixed with a touch of playful mischief. Those sparkling green eyes aren’t just for show – they're constantly watching, curious, and ready for the next fun adventure. Toothless adores cozy spots, be it a sunlit windowsill or the curve of your lap, and has a soft purr that can soothe away any stress. While he might remind you of a certain dragon with his name, this feline is nothing but love and grace. If you're seeking a sophisticated yet spirited companion, Toothless awaits your call!",
+      "gender": "female",
+      "image": "https://images.ctfassets.net/cnu0m8re1exe/qDQgxOUG5DNKlKH5TXsbo/813fa629fe33794c7ff439070fc31b89/shutterstock_603117302.jpg",
+      "breed": "Domestic Shorthair"
+    },
+    {
+      "id": 3,
+      "name": "Melon",
+      "description": "Meet Melon, a radiant beige feline whose coat is reminiscent of sandy deserts and warm, sunlit days. At 2 months old, Melon is a ball of energy, always ready to chase after a toy or curiously investigate every nook and cranny of the house. She's affectionate, with a sweet temperament that instantly endears her to anyone she meets. Melon loves to be the center of attention and wouldn't mind being your one and only, lavishing you with headbutts and gentle mews. If you're searching for a cat that embodies both the warmth of the sun and the joy of a desert bloom, Melon is your girl!",
+      "gender": "female",
+      "image": "https://www.hillspet.com/content/dam/cp-sites/hills/hills-pet/en_us/exported/cat-care/Skyword/201608/images/small-kitten-on-keyboard.jpg",
+      "breed": "Domestic Shorthair"
+    },
+    {
+      "id": 4,
+      "name": "Robin",
+      "description": "Introducing Robin, a majestic 3-year-old Samoyed with a smile as infectious as her fluffy charm! This cloud-like beauty has a thick, pristine white coat that resembles a snowfall in the heart of winter. But don’t let her icy looks fool you; she's warm, bubbly, and always up for an adventure. Robin enjoys the great outdoors, whether it's a brisk walk in the park or a playful romp in the snow. She's social, friendly, and gets along fabulously with other dogs. Beneath her playful demeanor is a gentle and intuitive soul, making her an excellent companion for families or singles alike. If you're looking for a dog who's both a showstopper and a sweetheart, Robin will happily fill those paw prints!",
+      "gender": "male",
+      "image": "https://dogtime.com/wp-content/uploads/sites/12/2011/01/GettyImages-997016774-e1694111248101.jpg",
+      "breed": "Samoyed"
+    },
+    {
+      "id": 5,
+      "name": "Turtle",
+      "description": "Welcome to the world of Turtle, a delightful grey munchkin cat with stubby legs that only add to his charm. At just 3 years old, Turtle might be small in stature, but he's gigantic in personality. He’s a curious little fellow, darting around the house with surprising speed, proving that his legs are no hindrance to his playful spirit. Turtle is a bundle of love, often seeking out affection and curling up in the coziest of spots. He’s sociable, friendly, and has a soft spot for interactive toys and treats. If you're looking for a feline friend with endless charm and a heart as big as his character, Turtle is ready to waddle into your life!",
+      "gender": "male",
+      "image": "https://www.hepper.com/wp-content/uploads/2021/07/munchkin-cat-playing_SV_zt-Shutterstock.jpg",
+      "breed": "Munchkin Cat"
+    }
+  ]
+}

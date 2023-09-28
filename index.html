@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caring Companions</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="src/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="body">
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#top">Home</a>
+        <a href="#animals">Animals</a>
+        <div><img class="logo-img" src="resources/Pet_Logo-removebg-preview.png" alt="Logo"></div>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero-section">
+        <div>
+            <p id="hero1" class="hero-text">Caring Companions</p>
+            <p id="hero2" class="hero-text">Adopt, don't shop.</p>
+        </div>
+    </section>
+
+    <!-- Landing Section -->
+    <div class="landing-section">
+        <img id="landing-image" src="https://img.freepik.com/free-vector/pet-store-animal-shelter-man-taking-puppy-from-cage-buying-adopting-dog-volunteers-helping-choose-homeless-animal-adoption_74855-8527.jpg"
+            alt="Image Description" class="landing-image">
+        <div class="landing-text">
+            <p><strong><em>Caring Companions</em></strong> is a user-friendly platform connecting loving homes with adorable pets
+                awaiting adoption. Browse through our curated gallery, learn about each animal's story, and take the
+                first step towards adding a <strong>new</strong> furry member to your family.</p>
+        </div>
+    </div>
+
+
+    <!-- List of Animals -->
+    <h1 id="animals" class="animals-header">Our Available Animals!</h1>
+    <div class="animals-grid">
+        <!-- Additional animals will be added here -->
+
+    </div>
+
+    <!-- Modal to show details
+    <div id="detailsModal">
+        <h3 id="animalName"></h3>
+        <img id="animalImage" width="200" src="" alt="">
+        <p id="animalDescription"></p>
+        <button id="deleteButton" onclick="deleteAnimal()">Delete</button>
+    </div> -->
+
+    <!-- Modal container -->
+    <div id="modalContainer" onclick="hideModal()">
+
+        <!-- Modal content, which shows details -->
+        <div id="detailsModal" onclick="event.stopPropagation()">
+            <h3 id="animalName"></h3>
+            <img id="animalImage" width="200" src="" alt="">
+            <p id="animalDescription"></p>
+            <button id="deleteButton" onclick="deleteAnimal()">Delete</button>
+        </div>
+
+    </div>
+
+
+    <h1 id="testimonials" class="testimonials">Testimonials</h1>
+    <section class="testimonial-section">
+        <div class="about">
+            <div id="card1" class="cards">
+                <img class="profile-pics" src="https://img.freepik.com/premium-vector/grand-father-pixel-art-style_475147-1149.jpg" alt="">
+                <p class="test-text">
+                    Ever since I discovered Caring Companions, adopting a pet has never been easier. The website is intuitive, and I love how each animal's story is shared. Within days, I found my perfect match – Max, a playful tabby cat. Thank you for making this beautiful connection possible!
+                </p>
+            </div>
+            <div id="card2" class="cards">
+                <img class="profile-pics" src="https://img.freepik.com/premium-vector/old-man-head-pixel-art-style_475147-1005.jpg?w=2000" alt="">
+                <p class="test-text">
+                    I've been on a few adoption platforms, but Caring Companions stands out by miles. The detailed profiles, clear pictures, and user-friendly interface made my adoption process smooth and enjoyable. Now, Bella, my adopted beagle, and I are inseparable!
+                </p>
+            </div>
+            <div id="card3" class = "cards">
+                <img class="profile-pics" src="https://img.freepik.com/premium-vector/old-man-head-pixel-art-style_475147-1005.jpg?w=2000" alt="">
+                <p class="test-text">
+                    Adopting from Caring Companions has been a heartwarming experience. Their dedication to ensuring every pet finds a loving home is evident in the care they put into the website. The platform is not just functional but also full of compassion. Luna,my new puppy, is a testament to their commitment. Highly recommended!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add Animal Form -->
+    <div class="add-animal-form">
+        <h2>Add Animal for Adoption</h2>
+
+        <form id="animalForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="breed">Breed:</label>
+            <input type="text" id="breed" required>
+
+            <label for="image">Image URL:</label>
+            <input type="text" id="image" required>
+
+            <label for="description">Description:</label>
+            <input type="text" id="description" required>
+
+            <input type="submit" value="Add Animal!">
+        </form>
+    </div>
+
+    <div class="footer">
+
+        <p class="footer-text">Caring Companions</p>
+        <img id="logo-img" style="height: 40px; padding-bottom: 10px;" src="resources/Pet_Logo-removebg-preview.png"
+            alt="Logo">
+        <a href="#top">Back to Top</a>
+
+    </div>
+
+
+
+</body>
+
+</html>
