@@ -131,6 +131,10 @@ body {
     object-fit: fill;
 }
 
+#animal-image{
+    max-width: 500;
+}
+
 .animal:hover {
     transform: scale(1.1);
     border: 5px solid #588157
